@@ -1,0 +1,34 @@
+.right {
+    padding: 30px 10px 30px 30px;
+}
+
+.panel-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panel-header h2 {
+    font-size: 20px;
+    margin: 0 16px;
+}
+
+.panel-header .other {
+    border: 2px dashed #eeeeee;
+    flex: 1;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.item-left {
+    width: 200px;
+}
+
+.item-right {
+    flex: 1;
+}
