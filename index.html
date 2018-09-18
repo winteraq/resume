@@ -7,6 +7,7 @@
     <link type="text/css" rel="stylesheet" href="./reset.css">
     <link type="text/css" rel="stylesheet" href="./index.css">
     <link type="text/css" rel="stylesheet" href="./right.css">
+    <link type="text/css" rel="stylesheet" href="./left.css">
 </head>
 
 <body>
@@ -22,80 +23,82 @@
                 </p>
             </div>
             <div>
-               
-            </div>
-            <div class="evaluation">
-                <h3 class="info-title">自我评价</h3>
-                <p class="info-content"></p>
             </div>
             <div class="information">
                 <h3 class="info-title">联系方式</h3>
-                <p class="info-content">
-                   <p>手机：18840838170</p> 
-                </p>
+                <div class="info-content">
+                        <p>手机：18840838170</p> 
+                        <p>邮箱：winteraq@163.com</p> 
+                </div>
             </div>
             <div class="award">
                 <h3 class="info-title">自我评价</h3>
-                <p class="info-content">
-                    <p>学习能力强</p> <p>跨界</p>
-                    <p>喜欢折腾</p>
-                </p>
+                <div class="info-content">
+                    <p>学习能力强</p> <p>比较喜欢思考，跨界解决问题</p>
+                    <p>喜欢终端视觉效果，无论是前端还是机器学习都围绕这个来做</p>
+                </div>
             </div>
             <div class="hobby">
                     <h3 class="info-title">爱好</h3>
-                    <p class="info-content">
+                    <div class="info-content">
                         <p>看书</p>
-                    </p>
+                    </div>
                 </div>
                 <div class="hobby">
                         <h3 class="info-title">技能树</h3>
-                        <p class="info-content">
-                            web前端，javascript，reactjs，机器学习
-                        </p>
+                        <div class="info-content">
+                            <p>熟悉javascript，css等web前端基础知识，熟悉reactjs框架</p>
+                            <p>熟悉 LR、SVM、KNN、决策树、朴素贝叶斯、随机森林、Kmeans 等常用的机器学习算法 </p>
+                            <p>英语能力良好(CET-6) </p>
+                            <p>数学知识扎实，熟悉掌握统计学习方法与常用矩阵分析方法</p>
+                            <p>熟悉linux常用命令</p>
+                        </div>
                     </div>
         </div>
         <div class="right">
             <div class="panel">
                 <section class="panel-header">
-                    <img>
+                    <img src="http://o9l29mzgn.bkt.clouddn.com/%E5%AD%A6%E6%A0%A1.png">
                     <h2>教育经历</h2>
                     <div class="other"></div>
                 </section>
                 <section class="panel-body">
                     <div class="item">
-                        <div class="item-left">大连理工大学</div>
-                        <div class="item-right">youmian</div>
+                        <div class="item-left">哈尔滨工业大学</div>
+                        <div class="item-right">17/7~19/7  <span style="color:rgb(50,169,150)">软件工程(机器学习)</span></div>
                     </div>
                     <div class="item">
-                        <div class="item-left">哈尔滨工业大学</div>
-                        <div class="item-right">youmian</div>
-                    </div>
+                            <div class="item-left">大连理工大学</div>
+                            <div class="item-right">17/7~19/7 <span style="color:rgb(50,169,150)">软件工程(移动互联网)</span></div>
+                        </div>
                 </section>
                 <div class="panel">
                     <section class="panel-header">
-                        <img src="" alt="">
+                        <img  class="project-icon" src="http://o9l29mzgn.bkt.clouddn.com/%E9%A1%B9%E7%9B%AE%E6%B6%88%E6%81%AF.png" alt="">
                         <h2>项目经历</h2>
                         <div class="other"></div>
                     </section>
                     <section class="panel-body">
                             <div class="item">
                                     <div class="item-left">
-                                        <p>深度学习方法的UI组件识别</p>
+                                        <p class="project-title">深度学习方法的UI组件识别</p>
+                                        <p class="project-time">17/12~18/2</p>
                                     </div>
                                     <div class="item-right">
                                         <h3>Situation & Task</h3>
-                                        <p>创业时做过一些后台系统，基本都是表单管理，差不多是一个套路，希望能通过技术的方式简化开发过程，最好自动化生成代码</p>
+                                        <p>创业时做过一些后台系统，基本都是表单管理，差不多是一个套路，当时就希望能通过技术的方式简化开发过程，限于技术只能做到组件化，读研后想能否自动化生成代码</p>
                                         <h3>Action</h3>
-                                        <p>目标检测的算法，从最早的rcnn算法，到最新的SSD，不论是准确率还是检测速度都有了非常大的提升，用这些算法来识别UI图片中的各类组件理论上是可行的。</p>
+                                        <p>目标检测的算法，从最早的rcnn算法，到最新的yolo v2，不论是准确率还是检测速度都有了非常大的提升，用这些算法来识别UI图片中的各类组件理论上是可行的。</p>
                                         <h3>Result</h3>
-                                        <p>能从草图中识别并生成按钮，input，radio，checkbox等，不过在排版上还有些问题</p>
+                                        <p>能从草图中识别并生成按钮，input，radio，checkbox等生成对应组件代码，不过在排版上还有些问题。后面还将项目中目标检测成果放到网约车证件识别项目中去，训练出的模型在 IOU=0.7 的情况下，mAP 达到 98.7%</p>
                                         <h3>技术点</h3>
                                         <p></p>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="item-left">
-                                        <p>vteacher</p>
+                                        <p class="project-title">vteacher</p>
+                                        <p class="project-time">16/1~16/6</p>
                                     </div>
                                     <div class="item-right">
                                         <h3>Situation & Task</h3>
@@ -110,24 +113,24 @@
                                 </div>
                                 <div class="item">
                                     <div class="item-left">
-                                        <p>外包项目</p>
+                                        <p class="project-title">其他项目</p>
                                     </div>
                                     <div class="item-right">
-                                        未时云端购商城后台，不装艺术品拍卖平台后台
+                                        基于卷积神经网络的视频插帧技术(国家级项目) ，网约车证件识别，未时云端购商城后台，不装艺术品拍卖平台后台
                                     </div>
                                 </div>
                     </section>  
                 </div>
                 <div class="panel">
                     <section class="panel-header">
-                            <img src="" alt="">
+                            <img src="http://o9l29mzgn.bkt.clouddn.com/%E7%BB%8F%E5%8E%86.png" alt="">
                             <h2>实践经历&奖项</h2>
                             <div class="other"></div>
                     </section>
                     <section class="panel-body">
                             <div class="item">
                                     <div class="item-left">
-                                            <p>哈工大xxx实验室</p>
+                                            <p class="project-title">哈工大xxx实验室</p>
                                         </div>
                                         <div class="item-right">
                                                <p> 目标检测，视频插帧</p>
@@ -135,15 +138,16 @@
                             </div>
                             <div class="item">
                                     <div class="item-left">
-                                            <p>大连奥义朝夕公司</p>
+                                            <p class="project-title">大连奥义朝夕有限公司</p>
+                                            <p class="project-time">自主创业(16~17)</p>
                                         </div>
                                         <div class="item-right">
-                                            <p>大三的时候修完大部分课程，于是半全职大学生创业，主要做前端开发，有工作自己的创业项目，获得大学生挑战杯三等奖。有做过一些外包项目大家一起维持公司运转</p>
+                                            <p>大三的时候修完大部分课程，于是半全职开始大学生创业，主要做前端开发，有自己的创业项目v-teacher，获得大学生挑战杯三等奖。页有做过一些外包项目大家一起维持公司运转</p>
                                         </div>
                             </div>
                             <div class="item">
                                     <div class="item-left">
-                                            <p>其他组织经历</p>
+                                            <p class="project-title">其他组织/项目经历</p>
                                         </div>
                                         <div class="item-right">
                                             <p>腾讯-大工移动互联网联合培训班</p>
@@ -154,10 +158,11 @@
                             </div>
                             <div class="item">
                                     <div class="item-left">
-                                            <p>奖项经历</p>
+                                            <p class="project-title">奖项经历</p>
                                         </div>
                                         <div class="item-right">
                                                 <p>大学生服务外包大赛国奖</p>
+                                                <p>研究生二等奖学金</p>
                                                 <p>挑战杯创业大赛(小挑)省三</p>
                                                 <p>其他各类院级校级比赛若干</p>
                                     </div>

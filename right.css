@@ -10,9 +10,18 @@
     margin-bottom: 10px;
 }
 
+.panel-header img{
+    height: 30px;
+}
+.panel-header img.project-icon{
+    height: 20px;
+    margin-right: 4px;
+    margin-left: 2px;
+}
+
 .panel-header h2 {
     font-size: 20px;
-    margin: 0 16px;
+    margin: 0 16px 0 5px;
 }
 
 .panel-header .other {
@@ -20,11 +29,21 @@
     flex: 1;
 }
 
+.project-title{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.project-time{
+    color:rgb(50,169,150)
+}
+
 .item {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .item-left {

@@ -1,0 +1,13 @@
+.info-title{
+    margin-top: 15px;
+}
+.info-content{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.info-content p{
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 5px;
+}
