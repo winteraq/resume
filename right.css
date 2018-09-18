@@ -7,6 +7,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .panel-header h2 {
@@ -23,12 +24,24 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .item-left {
     width: 200px;
+    margin-right:5px; 
 }
 
 .item-right {
     flex: 1;
+}
+.item-right h3{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.item-right p{
+    line-height: 16px;
+    font-size: 14px;
+    margin-bottom: 5px;
 }
