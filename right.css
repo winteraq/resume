@@ -47,7 +47,7 @@
 }
 
 .item-left {
-    width: 200px;
+    width: 140px;
     margin-right:5px; 
 }
 
@@ -60,7 +60,7 @@
 }
 
 .item-right p{
-    line-height: 16px;
+    line-height: 17px;
     font-size: 14px;
     margin-bottom: 5px;
 }
