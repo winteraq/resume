@@ -35,8 +35,8 @@
             <div class="award">
                 <h3 class="info-title">自我评价</h3>
                 <div class="info-content">
-                    <p>学习能力强，前端上js比较好</p> <p>比较喜欢思考，跨界解决问题</p>
-                    <p>喜欢终端<strong>视觉效果</strong>，无论是前端还是机器学习都围绕这个来做</p>
+                    <p>学习能力强，前端基础较好</p> <p>比较喜欢思考，跨界解决问题</p>
+                    <!-- <p>喜欢终端<strong>视觉效果</strong>，无论是前端还是机器学习都围绕这个来做</p> -->
                 </div>
             </div>
             <div class="hobby">
@@ -48,12 +48,12 @@
                 <div class="hobby">
                         <h3 class="info-title">技能树</h3>
                         <div class="info-content">
-                            <p>熟悉javascript，css等web前端基础知识，掌握ES6，熟悉reactjs框架</p>
+                            <p>熟悉javascript，css,html等web前端基础知识</p>
+                            <p>掌握ES6，熟悉reactjs框架</p>
                             <p>了解webpack，npm等前端工程化工具</p>
-                            <p>熟悉 LR、SVM、KNN、决策树、朴素贝叶斯、随机森林、Kmeans 等常用的机器学习算法 </p>
                             <p>英语能力良好(CET-6) </p>
-                            <p>数学知识扎实，熟悉掌握统计学习方法与常用矩阵分析方法</p>
                             <p>熟悉linux常用命令，了解python，c++等语言</p>
+                            <p>熟悉 KNN、决策树、SVM 等常用的机器学习算法 </p>
                         </div>
                     </div>
         </div>
@@ -67,7 +67,7 @@
                 <section class="panel-body">
                     <div class="item">
                         <div class="item-left">哈尔滨工业大学</div>
-                        <div class="item-right">17/9~19/7  <span style="color:rgb(50,169,150)">软件工程(机器学习)</span></div>
+                        <div class="item-right">17/9~19/7  <span style="color:rgb(50,169,150)">软件工程(视觉)</span></div>
                     </div>
                     <div class="item">
                             <div class="item-left">大连理工大学</div>
@@ -83,18 +83,39 @@
                     <section class="panel-body">
                             <div class="item">
                                     <div class="item-left">
-                                        <p class="project-title">深度学习方法的UI组件识别</p>
-                                        <p class="project-time">17/12~18/2</p>
+                                        <p class="project-title">基于react的通用MIS开发框架</p>
+                                        <p class="project-time">18/2~18/5</p>
                                     </div>
                                     <div class="item-right">
                                         <h3>Situation & Task</h3>
-                                        <p>创业时做过一些后台系统，基本都是表单管理，差不多是一个套路，当时就希望能通过技术的方式简化开发过程，限于技术只能做到组件化，读研后想能否自动化生成代码</p>
-                                        <h3>Action</h3>
-                                        <p>获取数据集，对数据进行人工标注等相关数据处理；在实验室的GPU服务器上进行faster-rcnn的模型训练；对实验结构进行分析，不断优化模型；</p>
-                                        <h3>Result</h3>
-                                        <p>能从草图中识别并生成按钮，input，radio，checkbox，icon等生成对应组件代码，不过在识别层级关系上还有些问题。后面还将项目中目标检测放到网约车证件识别项目中去，训练出的模型在 IOU=0.7 的情况下，mAP 达到 98.7%</p>
+                                        <p>未时云端商城，小地主微信购物平台，我都主要负责后台管理系统的开发，发现很多工作都是重复的，所以想要将后台管理抽象成一个开发框架，变成一个开箱即用的后台前端解决方案</p>
+                                        <h3>Action & Result</h3>
+                                        <p>基于less的主题定制</p>
+                                        <p>项目预置页面布局与一级二级菜单管理</p>
+                                        <p>项目按照路由动态加载性能更优</p>
+                                        <p>使用mock.js实现完整的mock设定，模拟服务端返回接口</p>
+                                        <p>预设403,404等错误处理页面</p>
+                                        <p>提供权限控制组件，按照 用户-角色-权限 模型实现基本权限控制</p>
+                                        <p>基于redux的完整数据存储层</p>
                                         <h3>技术点</h3>
-                                        <p>faster-rcnn，tensorflow</p>
+                                        <p>react，redux，react-router，webpack，axios，less，antd，mock.js</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item-left">
+                                        <p class="project-title">小地主微信电商平台</p>
+                                        <p class="project-time">17/7~17/9</p>
+                                    </div>
+                                    <div class="item-right">
+                                        <h3>Situation & Task</h3>
+                                        <p>农产品的购物平台，我主要负责后台管理系统的开发</p>
+                                        <h3>Action & Result</h3>
+                                        <p>编写人员管理，商品管理，订单管理页面</p>
+                                        <p>使用Ant Design组件开发</p>
+                                        <p></p>
+                                        <p></p>
+                                        <h3>技术点</h3>
+                                        <p>javascript, reactjs</p>
                                     </div>
                                 </div>
                                 <div class="item">
@@ -104,26 +125,26 @@
                                     </div>
                                     <div class="item-right">
                                         <h3>Situation & Task</h3>
-                                        <p>当时网盘类应用比较流行，针对教育垂直领域内却鲜有网盘类应用，于是我们创业团队提出做垂直领域学校局域网内部网盘应用，主要解决师生文件分发问题，我负责主要前端开发</p>
-                                        <h3>Action</h3>
-                                        <p>我调研了国内相关平台界面设计(百度云/360云盘)，负责web前端的大部分开发，如首页，推荐页面，文件管理页面(list/grid)等等</p>
-                                        <p>项目进行组件化方式进行开发，抽象出文件组件，列表组件，操作组件等基础业务组件</p>
-                                        <p>搭建前端环境(webpack)和后端同学进行联调</p>
-                                        <h3>Result</h3>
-                                        <p>16年大家做完了vteacher原型，项目获得了全国大学生创新创业大赛三等奖，当时在软件学院内测使用，使用中也遇到一些问题，比如在线预览没有很好的方案，本地客户端文件同步也没实现。商业上看校园垂直领域内的服务没有达到团队的预期，也很遗憾没有时间继续完善这个项目</p>
+                                        <p>创业团队提出做垂直领域学校局域网内部网盘应用，解决师生文件分发问题，我主要负责前端开发</p>
+                                        <h3>Action & Result</h3>
+                                        <p>编写项目首页，推荐页面，文件管理页面</p>
+                                        <p>以组件化方式开发，抽象出文件组件，列表组件，操作组件等基础业务组件</p>
+                                        <p>使用webuploader插件</p>
+                                        <p>文件菜单按照动态路由加载</p>
+                                        <p>项目在校内使用频率很高</p>
                                         <h3>技术点</h3>
                                         <p>javascript, reactjs, webpack ,babel, asp.net mvc，webuploader</p>
                                     </div>
                                 </div>
+                                
                                 <div class="item">
                                     <div class="item-left">
                                         <p class="project-title">其他项目</p>
                                         <p class="project-time">(研究生/大学期间)</p>
                                     </div>
                                     <div class="item-right">
-                                        <p>基于卷积神经网络的视频插帧技术(国家级项目) </p>
-                                        <p>网约车证件识别</p>
-                                        <p>未时云端购商城后台，主要商品进销存管理，react技术栈(17/1~17/3)</p>
+                                        <p>基于卷积神经网络的视频插帧技术(国家级项目)(18/5~至今) </p>
+                                        <p>未时云端购商城后台，主要是商品进销存管理，react技术栈(17/3~17/7)</p>
                                         <p>不装艺术品拍卖平台后台，主要是艺术品管理，react技术栈(16/8~16/11)</p>
                                     </div>
                                 </div>
@@ -141,7 +162,7 @@
                                             <p class="project-title">哈工大智能接口与人机交互中心</p>
                                         </div>
                                         <div class="item-right">
-                                               <p>我主要研究方向是目标检测，视频插帧等计算机视觉相关的领域</p>
+                                               <p>我主要研究方向是视频插帧</p>
                                         </div>
                             </div>
                             <div class="item">
@@ -150,7 +171,7 @@
                                             <p class="project-time">自主创业(16~17)</p>
                                         </div>
                                         <div class="item-right">
-                                            <p>大三的时候修完大部分课程，于是半全职开始大学生创业，主要做前端开发，有自己的创业项目v-teacher，获得大学生挑战杯三等奖。页有做过一些外包项目大家一起维持公司运转</p>
+                                            <p>大三的时候修完大部分课程，于是半全职开始大学生创业，主要做前端开发，有自己的创业项目v-teacher，获得大学生挑战杯三等奖。也有做过一些外包项目大家一起维持公司运转</p>
                                         </div>
                             </div>
                             <div class="item">
@@ -161,7 +182,7 @@
                                             <p>腾讯-大工移动互联网联合培训班</p>
                                             <p>学生会心理协会副会长</p>
                                             <p>国家级创业项目(成功结项)</p>
-                                            <p>省级创新项目(成功结项)</p>
+                                            <p>校级创新项目(成功结项)</p>
                                     </div>
                             </div>
                             <div class="item">
@@ -172,7 +193,6 @@
                                                 <p>大学生服务外包大赛国奖</p>
                                                 <p>研究生二等奖学金</p>
                                                 <p>挑战杯创业大赛(小挑)省三</p>
-                                                <p>其他各类院级校级比赛若干</p>
                                     </div>
                             </div>
                     </section> 
